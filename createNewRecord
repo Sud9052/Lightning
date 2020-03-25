@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+		   <aura:attribute name="objectAPIName" type = "String" />
+   
+    <aura:attribute name="buttonLabel" type = "String" />
+    <aura:attribute name="recordTypeID" type = "String" />
+    
+    <lightning:card>
+    	
+        <lightning:button variant="brand" label="{!v.buttonLabel}" title="Brand action" onclick="{! c.createRecord }" class="slds-button slds-button_brand slds-button_stretch" />
+       
+    </lightning:card>
+</aura:component>
