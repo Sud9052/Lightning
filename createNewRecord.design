@@ -1,0 +1,9 @@
+<design:component label="Create New Record">	    
+    <design:attribute name="objectAPIName" label="Object API Name" description="API Name of the Object you would like to create the Record" required= "true"/>
+    <design:attribute name="buttonLabel" label="Button Label" description="Enter the Label that can be displayed" default = "New Record"/>
+    <design:attribute name="recordTypeID" label="Record Type ID" description="Enter the Record Type Id Leave blank for default" />
+      <design:supportedFormFactors>
+        <design:supportedFormFactor type="Large"/>
+        <design:supportedFormFactor type="Small"/>
+    </design:supportedFormFactors>
+</design:component>
